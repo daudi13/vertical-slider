@@ -28,6 +28,10 @@ body {
   width: 35%;
   top: 0;
   left: 0;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
 }
 
 .slider-container .left-slide div {
@@ -61,6 +65,10 @@ body {
   top: 0;
   left: 35%;
   width: 65%;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
 }
 
 .slider-container .right-slide div {
