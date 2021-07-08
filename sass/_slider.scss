@@ -50,6 +50,30 @@
             top: 50%;
             left: 35%;
             z-index: 100;
+            background: #fff;
+            border: none;
+            color: #aaa;
+            cursor: pointer;
+            padding: 15px;
+            font-size: 16px;
+
+            &:hover {
+                color: #222;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .button-down {
+            transform: translateX(-100%);
+            border-top-left-radius: 5px;
+        }
+
+        .button-up {
+            transform: translateY(-100%);
+            border-bottom-right-radius: 5px;
         }
     }
 }

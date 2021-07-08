@@ -76,5 +76,31 @@ body {
   top: 50%;
   left: 35%;
   z-index: 100;
+  background: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.slider-container .action-buttons button:hover {
+  color: #222;
+}
+
+.slider-container .action-buttons button:focus {
+  outline: none;
+}
+
+.slider-container .action-buttons .button-down {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  border-top-left-radius: 5px;
+}
+
+.slider-container .action-buttons .button-up {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  border-bottom-right-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
